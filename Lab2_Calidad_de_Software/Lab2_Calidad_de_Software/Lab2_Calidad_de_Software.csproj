@@ -73,6 +73,7 @@
     <Compile Include="..\CalculatorSteps.cs">
       <Link>CalculatorSteps.cs</Link>
     </Compile>
+    <Compile Include="Calculator.cs" />
     <Compile Include="Calculator.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
