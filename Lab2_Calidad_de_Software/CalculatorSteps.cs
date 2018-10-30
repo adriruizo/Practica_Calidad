@@ -23,10 +23,10 @@ namespace MyProject.Specs
             calculator.SecondNumber = number;
         }
 
-        [When(@"I press Divide")]
-        public void WhenIPressDivide()
+        [When(@"I press Multiply")]
+        public void WhenIPressMultiply()
         {
-            result = calculator.Divide();
+            result = calculator.Multiply();
         }
 
         [Then(@"the result should be (.*) on the screen")]

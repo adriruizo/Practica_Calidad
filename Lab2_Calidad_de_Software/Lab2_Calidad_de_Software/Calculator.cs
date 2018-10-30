@@ -11,9 +11,9 @@ namespace Example
         public int FirstNumber { get; set; }
         public int SecondNumber { get; set; }
 
-        public int Divide()
+        public int Multiply()
         {
-            return FirstNumber / SecondNumber;
+            return FirstNumber * SecondNumber;
         }
     }
 }
